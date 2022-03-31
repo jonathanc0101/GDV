@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/welcome-section/static/css/main.6f845997.css",
+    "main.js": "/welcome-section/static/js/main.095689d8.js",
+    "index.html": "/welcome-section/index.html",
+    "main.6f845997.css.map": "/welcome-section/static/css/main.6f845997.css.map",
+    "main.095689d8.js.map": "/welcome-section/static/js/main.095689d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f845997.css",
+    "static/js/main.095689d8.js"
+  ]
+}
