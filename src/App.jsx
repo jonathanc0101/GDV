@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import HomeScreen from "./screens/HomeScreen";
 import ContactScreen from "./screens/ContactScreen";
-import WhoAmIScreen from "./screens/WhoAmIScreen";
+import WhoAreWeScreen from "./screens/WhoAreWeScreen";
 
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -14,9 +14,8 @@ function App() {
     <BrowserRouter>
       <MyNavBar />
       <Routes>
-        <Route path="/welcome-section" element={<HomeScreen />}></Route>
         <Route path="/gdv" element={<HomeScreen />}></Route>
-        <Route path="/who-am-i" element={<WhoAmIScreen />}></Route>
+        <Route path="/who-are-we" element={<WhoAreWeScreen />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
         {/* <Route path="/eventos" element={<Events />}></Route> */}
         <Route path="/contact-section" element={<ContactScreen />}></Route>

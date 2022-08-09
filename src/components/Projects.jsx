@@ -1,9 +1,8 @@
 import React from "react";
-
 import Project from "./Project";
 
-import { desktopProjects } from "./data";
 import { webProjects } from "./data";
+import FadeIn from "../effects/FadeIn";
 
 function ProjectList({ projects, type }) {
   return (
@@ -17,19 +16,14 @@ function ProjectList({ projects, type }) {
 
 export default function Projects() {
   return (
-    <div id="article-section">
+    <FadeIn id="article-section">
       <div className="d-flex flex-row flex-wrap all-projects">
         <ProjectList
           projects={webProjects}
           id="projects"
           type="Web"
         ></ProjectList>
-        <ProjectList
-          projects={desktopProjects}
-          id="desktop-projects"
-          type="Desktop"
-        ></ProjectList>
       </div>
-    </div>
+    </FadeIn>
   );
 }

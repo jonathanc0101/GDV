@@ -1,18 +1,15 @@
-import React, { useEffect, useState } from "react";
+import FadeIn from "../effects/FadeIn"
 
 export default function ContactScreen() {
-  const [className, setClassName] = useState("");
 
-  useEffect(() => {
-    setClassName("load");
-  }, [className]);
 
   return (
+    <FadeIn>
     <div
-      className={"contact-container fade-in-fast " + className}
+      className={"contact-container"}
       id="contact-section"
     >
-      <h3>If you'd like to contact me, here is where you can find me.</h3>
+      <h3>Si nos querés contactar estos son los lugares donde nos podés encontrar</h3>
 
       <a
         className="Header-link "
@@ -56,5 +53,6 @@ export default function ContactScreen() {
         </svg>
       </a>
     </div>
+    </FadeIn>
   );
 }

@@ -7,14 +7,14 @@ export default function MyNavBar() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
       <Container>
-        <Navbar.Brand as={Link} to="/welcome-section">
+        <Navbar.Brand as={Link} to="/gdv">
           GDV
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/who-am-i">
+            <Nav.Link as={Link} to="/who-are-we">
               Info
             </Nav.Link>
 
@@ -23,7 +23,7 @@ export default function MyNavBar() {
             </Nav.Link>
 
             <Nav.Link as={Link} to="/contact-section">
-              Contactanos
+              Contáctanos
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
