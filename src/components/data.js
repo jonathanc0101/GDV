@@ -1,31 +1,23 @@
 export const desktopProjects = [
   {
+    date: "08-2021",
     id: "turing-machine-simulator",
-    h3: `This is a Turing machine simulator. The simplest computer that you
-  could think of, this program simulates it.`,
-
-    p: `It's entirely written in Python and the UI is made using the
-  library Tkinter.
-
-  I made it during my fundaments of computer science className
-  during fall of 2020.`,
-
+    h3: `Turing machine simulator`,
+    p: `Entirely written in Python, GUI made Tkinter.
+The simplest computer, simulated in this program, made during CS fundamentals class.`,
     href: "https://github.com/jonathanc0101/FTI--entregable-final-maquina-de-turing",
-
     src: "https://github.com/jonathanc0101/FTI--entregable-final-maquina-de-turing/blob/imagenes-y-clutter/imagenes/interfaz%202021%2011%2024.PNG?raw=true",
     alt: "program",
     logos: ["python", "csv"],
   },
 
   {
+    date: "07-2021",
     id: "government-program",
-    h3: `Program for social assistance.`,
-
-    p: `This program was made entirely free for the Chubut government in
-  Argentina. It's written in an ancient language called VB.NET.`,
-
+    h3: `Social Assistance System`,
+    p: `System made entirely free for the Chubut government in
+Argentina. Written in the ancient language VB.NET.`,
     href: "https://github.com/jonathanc0101/accionSocial",
-
     src: "https://raw.githubusercontent.com/jonathanc0101/accionSocial/imagenesYclutter/imagenes/GrupoConviviente.PNG",
     alt: "program",
     logos: ["vbnet", "mssql"],
@@ -34,102 +26,163 @@ export const desktopProjects = [
 
 export const webProjects = [
   {
+    date: "09-2021",
     id: "product-page",
-    h3: `The product landing page`,
-    p: `This is an example of product page, let's not think about the fact
-          that the product and the company already exist and I have nothing
-          to do with them.`,
+    h3: `Product Page`,
+    p: `An example of a product page, forget about copyright.`,
     href: "https://jonathanc0101.github.io/product%20landing%20page/",
     src: "https://raw.githubusercontent.com/jonathanc0101/Freecodecamp-projects/master/1st%20course/images/product%20landing%20page.PNG",
     alt: " page",
     logos: ["javascript", "html", "css", "github"],
   },
   {
+    date: "10-2021",
     id: "form",
-    h3: `First web form`,
-
-    p: `This is my first web form, discovering the powerful aspect of
-          padding in an input opened my eyes. It sounds funny but it's true,
-          before doing this all I could imagine when i tought of an user
-          interface in a form was some old grey-looking Windows form from
-          the early 2000's.`,
-
+    h3: `Survey Form`,
+    p: `Padding inside an input field opened my eyes to the modern GUI.`,
     href: "https://jonathanc0101.github.io/survey%20form/",
     src: "https://raw.githubusercontent.com/jonathanc0101/Freecodecamp-projects/master/1st%20course/images/survey%20form.PNG",
     alt: "page",
     logos: ["javascript", "html", "css", "github"],
   },
   {
+    date: "11-2021",
     id: "article",
-    h3: `The article`,
-    p: `Sometimes I Take a long time falling asleep, this is the way that I
-          chose to deal with that. Writing whatever keept me up at night.`,
-
+    h3: `Sleepy Article`,
+    p: `Whatever keept me up at night. On an article.`,
     href: "https://jonathanc0101.github.io/technical%20documentation%20page/",
-
     src: "https://raw.githubusercontent.com/jonathanc0101/Freecodecamp-projects/master/1st%20course/images/article.PNG",
     alt: " page",
     logos: ["javascript", "html", "css", "github"],
   },
 
   {
+    date: "11-2021",
     id: "tribute",
-    h3: `The Julius Caesar "tribute"`,
-    p: `It's not really a tribute, I say some facts that do not leave his
-          image pristine to say the least. I also say that he was a product
-          of his time, make of this what you will.`,
+    h3: `Julius Caesar "tribute"`,
+    p: `Not really a tribute.`,
     href: "https://jonathanc0101.github.io/tribute%20to%20jc/",
     src: "https://raw.githubusercontent.com/jonathanc0101/Freecodecamp-projects/master/1st%20course/images/tribute.PNG",
     alt: "page",
     logos: ["javascript", "html", "css", "github"],
   },
   {
+    date: "12-2021",
     id: "markdown-previewer",
-    h3: `A Simple MarkDown Previewer`,
-    p: `Click on it and see, I myself don't really know a lot of Markdown.`,
+    h3: `MarkDown Previewer`,
+    p: `Click on it and see.`,
     href: "https://jonathanc0101.github.io/markdown-previewer/",
     src: "//raw.githubusercontent.com/jonathanc0101/markdown-previewer/master/sample.png",
     alt: "page",
     logos: ["react", "javascript", "redux"],
   },
   {
+    date: "01-2022",
     id: "random-quote-machine",
-    h3: `A Random Quote Machine`,
-    p: `Used some transitions here.`,
+    h3: `Random Quote Machine`,
+    p: `Provides you with random quotes.`,
     href: "https://jonathanc0101.github.io/random-quote-machine/",
     src: "https://raw.githubusercontent.com/jonathanc0101/random-quote-machine/master/sample.PNG",
     alt: "page",
     logos: ["react", "javascript", "redux", "bootstrap"],
   },
+  {
+    date: "08-2020",
+    id: "snakep5",
+    h3: `Snake 2D Clone`,
+    p: `Go ahead and play it`,
+    href: "https://jonathanc0101.github.io/snake-p5js/",
+    src: "https://raw.githubusercontent.com/jonathanc0101/snake-p5js/master/sample.png",
+    alt: "page",
+    logos: ["javascript", "p5js", "html"],
+  },
 ];
 
-export const logosUrls = {
-  html: "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/html.svg",
-  css: "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/css.svg",
-  javascript:
-    "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/javascript-js.svg",
-  p5js: "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/p5js.svg",
-  arduino:
-    "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/arduino.svg",
-  bootstrap:
-    "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/bootstrap.svg",
-  mssql:
-    "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/microsoft-sql-server.svg",
-  nodejs:
-    "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/nodejs.svg",
-  python:
-    "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/python.svg",
-  react:
-    "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/react.svg",
-  redux:
-    "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/redux.svg",
-  mysql:
-    "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/mysql.svg",
-  linux:
-    "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/linux.svg",
-  github:
-    "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/github.svg",
-  csv: "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/csv.svg",
-  vbnet:
-    "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/vbnet.svg",
-};
+export const skills = [
+  {
+    name: "react",
+    logoUrl:
+      "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/react.svg",
+  },
+  {
+    name: "redux",
+    logoUrl:
+      "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/redux.svg",
+  },
+  {
+    name: "nodejs",
+    logoUrl:
+      "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/nodejs.svg",
+  },
+  {
+    name: "javascript",
+    logoUrl:
+      "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/javascript-js.svg",
+  },
+  {
+    name: "css",
+    logoUrl:
+      "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/css.svg",
+  },
+  {
+    name: "html",
+    logoUrl:
+      "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/html.svg",
+  },
+  {
+    name: "p5js",
+    logoUrl:
+      "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/p5js.svg",
+  },
+  {
+    name: "bootstrap",
+    logoUrl:
+      "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/bootstrap.svg",
+  },
+  {
+    name: "arduino",
+    logoUrl:
+      "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/arduino.svg",
+  },
+  {
+    name: "mssql",
+    logoUrl:
+      "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/microsoft-sql-server.svg",
+  },
+  {
+    name: "mysql",
+    logoUrl:
+      "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/mysql.svg",
+  },
+  {
+    name: "vbnet",
+    logoUrl:
+      "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/vbnet.svg",
+  },
+  {
+    name: "python",
+    logoUrl:
+      "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/python.svg",
+  },
+  {
+    name: "csv",
+    logoUrl:
+      "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/csv.svg",
+  },
+  {
+    name: "linux",
+    logoUrl:
+      "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/linux.svg",
+  },
+  {
+    name: "github",
+    logoUrl:
+      "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/github.svg",
+  },
+];
+
+export const logosUrls = {};
+
+for (const key of skills) {
+  logosUrls[key.name] = key.logoUrl;
+}
