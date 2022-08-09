@@ -11,23 +11,19 @@ export default function WhoAmIScreen() {
     <div id="who-am-i" className={"fade-in-fast " + className}>
       <section>
         <div className="text-section">
-          <h2>Hello👋</h2>
+          <h2>Hola👋</h2>
           <p>
-            My name is Jonathan C. I'm a CS student in the UNPSJB (currently in
-            my 4th year).
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusamus quo neque provident ullam? Vitae quae modi rerum voluptate odit.
           </p>
 
           <p>
-            I've worked in a broad range of IT related topics; from installing
-            surveillance systems, to designing and implementing programs for the
-            government, automated irrigation systems, and also didactic
-            simulators.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit dolores eaque nemo possimus sapiente maiores dicta modi facere non veniam deleniti, animi reiciendis voluptatibus. Assumenda dolore fugiat repudiandae autem placeat.
           </p>
         </div>
       </section>
       <div className="quote-container">
-        <p className="text">“Good artists borrow, great artists steal.”</p>
-        <p className="author">-Pablo Picasso (maybe)</p>
+        <p className="text">"Los buenos artistas piden prestado, los grandes artistas roban.”</p>
+        <p className="author">-Pablo Picasso (Quizá)</p>
       </div>
     </div>
   );

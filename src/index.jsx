@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 
-document.title = "Portfolio";
+document.title = "GDV";
 
 ReactDOM.render(
   <React.StrictMode>

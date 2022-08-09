@@ -8,25 +8,22 @@ export default function MyNavBar() {
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
       <Container>
         <Navbar.Brand as={Link} to="/welcome-section">
-          Welcome
+          GDV
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/who-am-i">
-              About
+              Info
             </Nav.Link>
 
             <Nav.Link as={Link} to="/projects">
-              Projects
-            </Nav.Link>
-
-            <Nav.Link as={Link} to="/gdv">
-              GDV
+              Proyectos
             </Nav.Link>
 
             <Nav.Link as={Link} to="/contact-section">
-              Contact
+              Contactanos
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
