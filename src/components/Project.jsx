@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import FadeIn from "../effects/FadeIn";
 import Logos from "./Logos";
 

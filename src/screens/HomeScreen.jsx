@@ -1,5 +1,3 @@
-import React, { useEffect, useState } from "react";
-import Skills from "../components/Skills";
 import FadeIn from "../effects/FadeIn";
 
 export default function HomeScreen() {
@@ -12,10 +10,24 @@ export default function HomeScreen() {
           <p>Somos el grupo de desarrollo de videojuegos de la UNPSJB</p>
         </div>
 
-        <img className="project-image" src={"https://raw.githubusercontent.com/jonathanc0101/gdv/gdv/images/jona gritando.jpeg"} alt={"Foto obligatoria de un miembro apasionado"} />
-          <div className="overlay">
-            <p className="hidden-text">Foto obligatoria de un miembro apasionado</p>
-          </div>
+        <FadeIn>
+            <section className="project-tile">
+              <div className="img-container">
+                <img
+                  className="project-image"
+                  src={
+                    "https://raw.githubusercontent.com/jonathanc0101/gdv/gdv/images/jona gritando.jpeg"
+                  }
+                  alt={"Foto obligatoria de un miembro apasionado por el desarrollo de videojuegos."}
+                />
+                <div className="overlay">
+                  <p className="hidden-text">
+                  Foto obligatoria de un miembro apasionado por el desarrollo de videojuegos.
+                  </p>
+                </div>
+              </div>
+            </section>
+        </FadeIn>
 
         <div className="venite-a-la-uni-container">
           <section>
@@ -44,6 +56,9 @@ export default function HomeScreen() {
             </div>
           </section>
         </div>
+
+        <Game></Game>
+        
       </FadeIn>
     </>
   );
